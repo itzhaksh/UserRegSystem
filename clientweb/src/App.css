@@ -1,0 +1,85 @@
+.app-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f2f5;
+}
+
+.main-content {
+  width: 1218px;
+  height: 743px;
+  filter: drop-shadow(0px 2px 30px rgba(0, 0, 0, 0.3));
+}
+
+.auth-container {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #E6E9FA;
+  backdrop-filter: blur(12px);
+  border-radius: 24px;
+  display: flex;
+}
+
+.left-section {
+  position: relative;
+  width: 60%;
+  background: #3949AB;
+  border-radius: 24px 0 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.right-section {
+  position: relative;
+  width: 40%;
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: center;
+
+}
+
+.icon-container {
+  position: absolute;
+  left: 50px;
+  top: 80px; 
+  width: 30px;  
+  height: 30px; 
+}
+
+.icon-image {
+  object-fit: contain; 
+}
+.welcome-image {
+  width: 70%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.welcome-image img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.welcome-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 200%;
+  margin-bottom: 10px;
+}
+
+.welcome-text {
+  font-size: 14px;
+  line-height: 200%;
+  color: #FFFFFF;
+}
