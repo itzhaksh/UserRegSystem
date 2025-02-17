@@ -1,4 +1,4 @@
-```markdown
+
 # AppRegistration
 
 ## Running the Desktop Version
@@ -23,4 +23,3 @@
    ```bash
    npx expo start
    ```
-```
