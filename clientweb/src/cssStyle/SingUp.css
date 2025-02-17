@@ -51,24 +51,33 @@
 }
 
 .input-field {
-  position: relative;
-  width: 100%;
   box-sizing: border-box;
+  width: 90%;
+  height: 40px;
+  position: relative;
+  background-color: #3949AB;
+  
+  top: -5px;
+  left: 9px;
 }
+
 
 .text-input {
   box-sizing: border-box;
-  width: 100%;
+  width: 90%;
   height: 40px;
   padding: 8px;
   border: 1px solid #D0D0D0;
-  border-radius: 8px;
+  border-radius: 4px;
   font-size: 14px;
   color: #828282;
   outline: none;
   background-color: white;
   font-family: 'Lato', sans-serif; 
-  -webkit-text-fill-color: #828282; 
+  -webkit-text-fill-color: #828282;
+  position: relative;
+  top: -7px;
+  left: -2px;
 }
 
 .password-field {

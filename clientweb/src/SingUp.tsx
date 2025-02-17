@@ -4,10 +4,7 @@ import axios, { AxiosResponse } from "axios";
 import Popup from "./Popup";
 import './cssStyle/SingUp.css';
 
-
-//const serverIp = "http://localhost:5173";
-
-const serverIp = "http://52.166.180.95:80"; 
+const serverIp = "http://52.166.180.95:80";
 
 interface SignUpProps {
   setIsSignUp: (value: boolean) => void;
